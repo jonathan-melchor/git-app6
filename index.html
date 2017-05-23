@@ -1,0 +1,371 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>Datos del equipo</title>
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/tema-app6.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js" type="text/javascript"></script>
+
+<script src="phonegap.js"></script><!-- necesario*/ -->
+<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+	<script type="text/javascript" src="engine1/jquery.js"></script>
+	<!-- End WOWSlider.com HEAD section-->
+
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head> 
+<body onLoad="MM_preloadImages('imagenes/monumentozaragoza.png','imagenes/monumentodiaz.png','imagenes/Monumentomiguel.png','imagenes/monumentofelipe.png')"> 
+
+  <div data-role="page"id="Principal" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"  data-back-btn-theme="a">
+     <h1>Batalla de Puebla</h1>
+    </div>
+    <!--<div data-role="main" class="ui-content">
+     <div data-role="collapsible" data-content-theme="false">
+       <h1>Foto Perfil</h1>
+         <div>
+          <p>Esta es  mi imagen de perfil:</p>
+         <br> 
+      </div>
+      <div>
+        <img src="imagenes/fotoPerfil.png" width="50%" height="50%">
+       </div>
+      </div>
+      </div>-->
+<div>
+       <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+       <li class="ui-first-child ui-last-child"> 
+           <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+              <h2>Causas de la Batalla</h2>
+           </a>
+</li>
+        <li class="ui-first-child ui-last-child">
+           <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+            <h2>Intervencion Francesa</h2>
+       </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+        <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+            <h2>Condecoraciones</h2>
+      </a>
+</li>
+      <li class="ui-first-child ui-last-child">
+          <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+           <h2>Personajes Sobresalientes</h2>
+       </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+          <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+           <h2>Monumentos de la batalla de puebla</h2>
+       </a>
+    </li>
+     </ul>
+   </div>
+	
+<!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/5demayo.png" alt="5de-mayo" title="5de-mayo" id="wows1_0"/></li>
+		<li><img src="data1/images/5demayo_0.png" alt="5-de-Mayo" title="5-de-Mayo" id="wows1_1"/></li>
+		<li><img src="data1/images/batalladepuebla5mayo.png" alt="batalla-de-puebla-5-mayo" title="batalla-de-puebla-5-mayo" id="wows1_2"/></li>
+		<li><img src="data1/images/condecoracion.png" alt="Condecoracion" title="Condecoracion" id="wows1_3"/></li>
+		<li><img src="data1/images/felipe.png" alt="Felipe" title="Felipe" id="wows1_4"/></li>
+		<li><img src="data1/images/historiadelabatalladepuebla.png" alt="historia-de-la-batalla-de-puebla" title="historia-de-la-batalla-de-puebla" id="wows1_5"/></li>
+		<li><img src="data1/images/ignacio_zaragoza1.png" alt="Ignacio_Zaragoza1" title="Ignacio_Zaragoza1" id="wows1_6"/></li>
+		<li><img src="data1/images/images.png" alt="images" title="images" id="wows1_7"/></li>
+		<li><img src="data1/images/mayo5a.png" alt="Mayo5a" title="Mayo5a" id="wows1_8"/></li>
+		<li><img src="data1/images/miguel_negrete.png" alt="Miguel_Negrete" title="Miguel_Negrete" id="wows1_9"/></li>
+		<li><img src="data1/images/monumentodiaz.png" alt="monumentodiaz" title="monumentodiaz" id="wows1_10"/></li>
+		<li><img src="data1/images/monumentofelipe.png" alt="monumentofelipe" title="monumentofelipe" id="wows1_11"/></li>
+		<li><img src="data1/images/monumentomiguel.png" alt="Monumentomiguel" title="Monumentomiguel" id="wows1_12"/></li>
+		<li><img src="data1/images/monumentozaragoza.png" alt="monumentozaragoza" title="monumentozaragoza" id="wows1_13"/></li>
+		<li><a href="http://wowslider.net"><img src="data1/images/porfirio_diaz.png" alt="jquery slideshow" title="Porfirio_Diaz" id="wows1_14"/></a></li>
+		<li><img src="data1/images/recurso2.png" alt="recurso2" title="recurso2" id="wows1_15"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="5de-mayo"><span><img src="data1/tooltips/5demayo.png" alt="5de-mayo"/>1</span></a>
+		<a href="#" title="5-de-Mayo"><span><img src="data1/tooltips/5demayo_0.png" alt="5-de-Mayo"/>2</span></a>
+		<a href="#" title="batalla-de-puebla-5-mayo"><span><img src="data1/tooltips/batalladepuebla5mayo.png" alt="batalla-de-puebla-5-mayo"/>3</span></a>
+		<a href="#" title="Condecoracion"><span><img src="data1/tooltips/condecoracion.png" alt="Condecoracion"/>4</span></a>
+		<a href="#" title="Felipe"><span><img src="data1/tooltips/felipe.png" alt="Felipe"/>5</span></a>
+		<a href="#" title="historia-de-la-batalla-de-puebla"><span><img src="data1/tooltips/historiadelabatalladepuebla.png" alt="historia-de-la-batalla-de-puebla"/>6</span></a>
+		<a href="#" title="Ignacio_Zaragoza1"><span><img src="data1/tooltips/ignacio_zaragoza1.png" alt="Ignacio_Zaragoza1"/>7</span></a>
+		<a href="#" title="images"><span><img src="data1/tooltips/images.png" alt="images"/>8</span></a>
+		<a href="#" title="Mayo5a"><span><img src="data1/tooltips/mayo5a.png" alt="Mayo5a"/>9</span></a>
+		<a href="#" title="Miguel_Negrete"><span><img src="data1/tooltips/miguel_negrete.png" alt="Miguel_Negrete"/>10</span></a>
+		<a href="#" title="monumentodiaz"><span><img src="data1/tooltips/monumentodiaz.png" alt="monumentodiaz"/>11</span></a>
+		<a href="#" title="monumentofelipe"><span><img src="data1/tooltips/monumentofelipe.png" alt="monumentofelipe"/>12</span></a>
+		<a href="#" title="Monumentomiguel"><span><img src="data1/tooltips/monumentomiguel.png" alt="Monumentomiguel"/>13</span></a>
+		<a href="#" title="monumentozaragoza"><span><img src="data1/tooltips/monumentozaragoza.png" alt="monumentozaragoza"/>14</span></a>
+		<a href="#" title="Porfirio_Diaz"><span><img src="data1/tooltips/porfirio_diaz.png" alt="Porfirio_Diaz"/>15</span></a>
+		<a href="#" title="recurso2"><span><img src="data1/tooltips/recurso2.png" alt="recurso2"/>16</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">wowslider.com</a> by WOWSlider.com v8.7</div>
+
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+
+    
+   <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+      <div>
+        <img src="imagenes/recurso2.png" width="46" height="46">
+      </div>
+      <div>
+         <h4>Aplicación Seis</h4>
+         <h4>Jonathan Melchor Aguilar</h4>
+     </div>
+</div>
+      </div>
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+        <div  data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+         <h1>Causas de la Batalla</h1>  
+       </div>
+       <div data-role="content" aling="center"> 
+        <div>
+          <div><h3>En mayo de 1861, el presidente Benito Juárez anunció la suspensión de los pagos de deuda la mexicana. Como consecuencia, los acreedores que eran Francia, Inglaterra y España firmaron la conocida Convención de Londres por la cual se comprometían enviar contingentes militares hacia el territorio mexicano con el fin hacer valer los derechos como acreedores.</p>
+          <p>En diciembre del mismo año, llegaron al puerto de Veracruz los primeros militares mientras que en enero de 1862 arribaron las tropas inglesas y francesas. Una vez en el país, los representantes de los tres países acreedores enviaron un ultimátum al gobierno de México exigiéndole el pago de las deudas ya que de lo contrario invadirían el país. Juárez, al ver que la invasión era un riesgo evidente, solicitó negociar para llegar a un acuerdo amistoso al tiempo que derogó el decreto que llevó a los países acreedores a iniciar acciones militares.</p>
+          <p>El presidente Juárez viendo la posibilidad de una invasión militar a la Ciudad de México ordenó la fortificación de Puebla al mismo tiempo que creó una nueva unidad militar conocida como Ejército de Oriente. Esta en un principio estuvo bajo las órdenes de José López Uraga pero debido a su mal desempeño el mando recayó en las manos del hasta entonces Ministro de Guerra, Zaragoza. Él tuvo la tarea de organizar las fuerzas, que sumaban unos 10.000 hombres, para repeler el ataque del ejército francés.</div></h3></p>
+          <div data-role="main" class="ui-content" align="center">
+    <div style="width:40%;">
+       <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+       <li class="ui-first-child ui-last-child"> 
+           <a href="https://webadictos.com/2017/05/04/historia-de-la-batalla-de-puebla-5-mayo/" target="_self" data-role="button">
+           <h4>Mas información</h4>
+           </a>
+        </li>
+        </ul>
+       </div>
+      </div>       
+           </div>
+        </div>
+        <div data-role="footer" data-theme="a" data-position="fixed">
+         <h4>Aplicación seis,JMA</h4>
+      </div>
+      </div>
+     
+
+<div data-role="page"id="Pagina2" data-add-back-btn="true" data-theme="a">
+        <div  data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+         <h1>Intervencion Francesa</h1>  
+       </div>
+       <div data-role="content" aling="center"> 
+        <div>
+          <h4><p>El día 5 de marzo, a pesar que las negociaciones continuaban, llegó a Veracruz un contingente francés que bajo el mando de Latrille se dirigió hacia Tehuacán. A estas fuerzas, se le unieron las del general conservador Juan Nepomuceno Almonte, quien se autoproclamó "jefe supremo de la nación" y reunió tropas conservadoras para apoyar a los franceses.<br>
+En abril del mismo año, España e Inglaterra al ver que Francia utilizaba como pretexto la deuda como forma de invadir México para adicionarlo como colonias rompieron la alianza con dicho país y otorgaron una moratoria al gobierno Juarista para el pago de la deuda y retiraron sus tropas del territorio mexicano.
+Los intereses meramente invasores de Francia, que contrastaban con los intereses de España e Inglaterra que solo querían llegar a un acuerdo para el cobro de la deuda quedaron en mayor evidencia.</p>
+<p>Francia no sólo exigía el pago inmediato de la deuda sino que también buscaba el control absoluto de las aduanas a la vez que deseaba tener poder directo sobre la política económica del país.</p>
+<p>A fines de abril, el general francés Lorencez desoyendo los tratados de La Soledad comenzó la campaña de invasión y dirigió sus fuerzas hacia Puebla con el objetivo, de llegar a la Ciudad de México y dominarla.<br>
+Los franceses con la moral muy alta, dado que no perdían una contienda bélica desde hacía cerca de 50 años (Waterloo) avanzaron hacia Puebla. Esta gran confianza que se tenían no sólo se debía a sus éxitos militares sino que la organización militar del bando mexicano era muy incipiente además de existir entre ellos, divisiones debido a cuestiones políticas.</p>
+<p>Cuando el general Zaragoza tuvo noticias acerca del avance francés, salió de Puebla con 4.000 soldados para hacer frente al enemigo quien ya sostenía algunas escaramuzas con guerrilleros que los hostigaban durante su camino.<br>
+El día 28 de abril, tuvo lugar la primera batalla bélica del Ejército de Oriente. El enemigo era una columna de soldados franceses y este encuentro cuya victoria se decantó del lado mexicano sirvió para dar cierta experiencia a las tropas mexicanas. En esta batalla, conocida como Batalla de las Cumbres, fallecieron cerca de 500 franceses y 50 mexicanos. Luego de que el ejército mexicano se retiró los franceses tomaron el control del paso teniendo de esta manera aislado al centro de México.<br>
+El día 2 de mayo de 1862 el ejército francés inició la travesía para tomar Puebla. Al conocer esto, Zaragoza llegó a Puebla para organizar la defensa repartiendo sus tropas por las calles desiertas de Puebla debido a que la mayoría de sus pobladores estaba de acuerdo y apoyaba la invasión de Francia.</p>
+<p>Luego de organizar al Ejército de Oriente y lograr detener el avance de tropas conservadoras llegó el día de la batalla, el 5 de mayo de 1862. Ese día a las 9:15 de la mañana las tropas francesas se divisaron en el horizonte a las 11:15 se inició la batalla. Este hecho se anunció con cañonazos disparados desde el Fuerte de Guadalupe y por el repique de las campanas de la ciudad.<br>
+La batalla fue dura pero cerca de las dos de la tarde la victoria parecía estar ya del lado mexicano. A esto se le sumó una fuerte lluvia que cayó entrada ya la tarde lo cual dificultó aún más la actuación de las tropas mexicanas.<br>
+Dado que las fuerzas mexicanas lograron repeler todos los ataques, el ejército francés no tuvo más remedio que retirarse hacia Amozoc.
+Los resultados finales de la batalla fueron 476 muertos y 345 heridos para el bando francés mientras que 83 muertos, 250 heridos y 12 desaparecidos para el Ejército de Oriente.<br>
+El general Zaragoza falleció el día 5 de septiembre de 1862 a causa de una fiebre tifoidea. Él logró ganar esta importante batalla junto a su ejército al cual arengó diciéndoles que si bien “los franceses eran los primeros soldados del mundo, ellos eran los primeros hijos de México”. Esta motivación hizo efecto sobre sus tropas.<br>
+Esta victoria mexicana se debió también en parte al error del general Lorencez al organizar los ataques primero contra Loreto y Guadalupe en lugar de hacerlos contra la ciudad. Otro error que incluso Napoléon III calificó de un gran disparate fue ordenar la colocación de los cañones a dos kilómetros y medio de las fortificaciones. Si bien las balas llegaban, lo hacía sin fuerza. En consecuencia, Lorencez fue apartado de su cargo y sustituido.</p>
+</h4>
+        </div>
+        </div>
+        <div data-role="footer" data-theme="a" data-position="fixed">
+         <h4>Aplicación seis,JMA</h4>
+      </div>
+      </div>
+     
+ 
+<div data-role="page"id="Pagina3" data-add-back-btn="true" data-theme="a">
+        <div  data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+           <H1>Condecoraciones</h1>
+        </div>
+       <div data-role="main" class="ui-content">
+     <div>
+     <h3><p>El 21 de mayo de 1862 el presidente Juárez publicó el decreto de condecoración a los vencedores de las batallas del 28 de abril en las Cumbres de Acultzingo y del 5 de mayo en Puebla, y ambas se consideraron victorias ante el ejército expedicionario francés.</p>
+
+<p>El 30 de mayo se entregaron a los miembros del Ejército de Oriente los "diplomas de Concurrencia" a las mismas batallas, según lo estipulado en el artículo cuarto del mencionado decreto.</p>
+
+<p>El 29 de noviembre Juárez viajó, acompañado por sus ministros de Guerra, Miguel Blanco Múzquiz, y de Relaciones Exteriores y Gobernación, Juan Antonio de la Fuente, a Puebla para una serie de ceremonias y reconocimientos a los defensores de la ciudad. Se reunió con González Ortega, y finalmente, el 4 de diciembre, en medio de una gran ceremonia en el Fuerte de Guadalupe, hizo entrega formal de las medallas a los vencedores de las batallas del 28 de abril y del 5 de mayo de ese año, y partió al día siguiente a la Ciudad de México. Asimismo, el 2 de marzo de 1863, en vísperas del inicio del Sitio de Puebla, se llevó a cabo una segunda ceremonia en Guadalupe, en la que entregó más medallas.</h3></p>
+      </div>
+      </div>
+        <div data-role="footer" data-theme="a" data-position="fixed">
+         <h4>Aplicación dos,JMA</h4>
+      </div>
+       </div>
+       
+      
+      </div>
+         
+        
+<div data-role="page" id="Pagina4"  data-add-back-btn="true" data-theme="a">
+       <div  data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+         <h1>Personajes Sobrealientes</h1>
+       </div>
+        <div data-role="main" class="ui-content">
+     <div data-role="collapsible" data-content-theme="false">
+       <h1>Ignacio Zaragoza</h1>
+         <div>
+          <h3>Ignacio Zaragoza nacido en Texas ingreso al ejército y el hico su carrera estaba al mando de un ejército de oriente él estaba compuesto de indígenas que lograron vencer al ejército francés en la batalla de puebla Ignacio Zaragoza muere a la edad de 33 años en la capital.</h3>
+         <br>
+         <div data-role="main" class="ui-content" align="center">
+    <div style="width:40%;">
+       <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+       <li class="ui-first-child ui-last-child"> 
+           <a href="http://www.biografiasyvidas.com/biografia/z/zaragoza.htm" target="_self" data-role="button">
+           <h4>Presione para ver Biografia</h4>
+           </a>
+        </li>
+        </ul>
+       </div>
+      </div> 
+      </div>
+      <div>
+        <p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image41','','imagenes/monumentozaragoza.png',1)"><img src="imagenes/Ignacio_Zaragoza1.png" width="220" height="246" id="Image41"></a></p>
+       </div>
+      </div>
+      </div>
+      
+<div data-role="main" class="ui-content">
+     <div data-role="collapsible" data-content-theme="false">
+       <h1>Porfirio Díaz</h1>
+         <div> 
+         <h3>José de la Cruz Porfirio Díaz Mori (Oaxaca de Juárez, Oaxaca, 15 de septiembre de 1830 - París, Francia, 2 de julio de 1915) fue un militar mexicano, que ejerció el cargo de presidente de México en siete ocasiones. Antes de asumir la presidencia fue un militar destacado que brilló por su participación en la Segunda Intervención Francesa en México. Combatió en la Batalla de Puebla, el Sitio de Puebla, la Batalla de Miahuatlán y en la Batalla de la Carbonera.</h3>
+         <br>
+         <div data-role="main" class="ui-content" align="center">
+    <div style="width:40%;">
+       <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+       <li class="ui-first-child ui-last-child"> 
+           <a href="http://www.biografiasyvidas.com/biografia/d/diaz_porfirio.htm" target="_self" data-role="button">
+           <h4>Presione para ver Biografia</h4>
+           </a>
+        </li>
+        </ul>
+       </div>
+      </div>
+      </div>
+      <div><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image46','','imagenes/monumentodiaz.png',1)"><img src="imagenes/Porfirio_Diaz.png" width="220" height="289" id="Image46"></a>
+       </div>
+      </div>
+      </div>
+            
+              <div data-role="main" class="ui-content">
+     <div data-role="collapsible" data-content-theme="false">
+       <h1>Miguel Negrete</h1>
+         <div>
+         <h3>Miguel Negrete Novoa (Tepeaca, Puebla, 8 de mayo de 1824 — Ciudad de México, 5 de enero de 1897) fue un militar mexicano, participó durante las guerras civiles del siglo XIX, así como durante las intervenciones de Estados Unidos y Francia. Fue ministro de Guerra durante la presidencia de Benito Juárez.</h3> 
+         <br>
+         <div data-role="main" class="ui-content" align="center">
+    <div style="width:40%;">
+       <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+       <li class="ui-first-child ui-last-child"> 
+           <a href="http://elblogdepuebla.blogspot.mx/2011/08/miguel-negrete-novoa-biografia-corta.html" target="_self" data-role="button">
+           <h4>Presione para ver Biografia</h4>
+           </a>
+        </li>
+        </ul>
+       </div>
+      </div>
+      </div>
+      <div><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('image46','','imagenes/Monumentomiguel.png',1)"><img src="imagenes/Miguel_Negrete.png" width="220" height="293" id="image46"></a>
+       </div>
+      </div>
+      </div>
+      
+              <div data-role="main" class="ui-content">
+     <div data-role="collapsible" data-content-theme="false">
+       <h1>Felipe Berriozábal</h1>
+         <div> 
+         <h3>Felipe Benicio Berriozábal Basabe (Zacatecas, Zacatecas, 23 de agosto de 1829 - Ciudad de México, 9 de enero de 1900) fue un político, militar liberal e ingeniero mexicano. Participó en la Guerra de Reforma. Formó parte de los gobiernos de Benito Juárez y Porfirio Díaz.</h3>
+         <br>
+         <div data-role="main" class="ui-content" align="center">
+    <div style="width:40%;">
+       <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+       <li class="ui-first-child ui-last-child"> 
+           <a href="https://es.wikipedia.org/wiki/Felipe_Berrioz%C3%A1bal" target="_self" data-role="button">
+           <h4>Presione para ver Biografia</h4>
+           </a>
+        </li>
+        </ul>
+       </div>
+      </div>
+     </div>
+     <div><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image45','','imagenes/monumentofelipe.png',1)"><img src="imagenes/Felipe.png" width="220" height="169" id="Image45"></a>
+       </div>
+      </div>     
+       </div>
+       
+          <div data-role="footer" data-theme="a" data-position="fixed">
+         <h4>Aplicación dos,JMA</h4>
+         </div>
+</div>
+</div>         
+        
+         <div data-role="page" id="Pagina5"  data-add-back-btn="true" data-theme="a">
+           <div  data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+           <h1>Monumentos 5 de mayo</h1>
+        </div>
+          <div data-role="content" aling="center">
+            <div>
+             <div>
+          <h1>Monumento Miguel Negrete:</h1>
+         <br> 
+      </div>
+      
+      <div>
+        <img src="imagenes/Monumentomiguel.png" width="50%" height="50%">
+       </div>
+        <h1>Monumento Ignacio Zaragoza:</h1>
+         <br> 
+      </div>
+      <div>
+        <img src="imagenes/monumentozaragoza.png" width="50%" height="50%">
+       </div>
+       
+        <h1>Monumento Porfirio Díaz:</h1>
+         <br> 
+      </div>
+      <div>
+        <img src="imagenes/monumentodiaz.png" width="50%" height="50%">
+       </div>
+       
+              
+         </div>
+      <div data-role="footer" data-theme="a" data-position="fixed">
+         <h4>Aplicación dos,JMA</h4>
+         </div>
+        </div>
+        </div>
+        
+   
+</body>
+</html>
